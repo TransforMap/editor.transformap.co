@@ -3845,11 +3845,11 @@
                 "terms": "speed table,flat top hump"
             },
             "transfor-direct": {
-                "name": "TransforMap: POI fulfilling direct needs",
+                "name": "POI fulfilling direct needs",
                 "terms": ""
             },
             "transfor-indirect": {
-                "name": "TransforMap: Organisation caring about needs",
+                "name": "Organisation caring about needs",
                 "terms": ""
             },
             "transfortest": {

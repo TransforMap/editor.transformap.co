@@ -95,6 +95,7 @@ provides/topic
 identity
 interaction
 
+sed -i 's/"fields": \[/"fields": \[ \n        "provides",\n        "topic",\n        "identity",\n        "interaction",/' *
 sed -i 's/"fields": \[/"fields": \[ \n        "provides",\n        "identity",\n        "interaction",/'
 
 

@@ -4,7 +4,7 @@
         "identity",
         "interaction",
         "operator",
-        "address",
+        "address"
     ],
     "geometry": [
         "point",

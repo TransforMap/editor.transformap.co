@@ -2489,11 +2489,11 @@ en:
         name: Raised Pedestrian Crossing
         terms: "<translate with synonyms or related terms for 'Raised Pedestrian Crossing', separated by commas>"
       transfor-direct:
-        name: "TransforMap: POI fulfilling direct needs"
-        terms: "<translate with synonyms or related terms for 'TransforMap: POI fulfilling direct needs', separated by commas>"
+        name: POI fulfilling direct needs
+        terms: "<translate with synonyms or related terms for 'POI fulfilling direct needs', separated by commas>"
       transfor-indirect:
-        name: "TransforMap: Organisation caring about needs"
-        terms: "<translate with synonyms or related terms for 'TransforMap: Organisation caring about needs', separated by commas>"
+        name: Organisation caring about needs
+        terms: "<translate with synonyms or related terms for 'Organisation caring about needs', separated by commas>"
       transfortest:
         name: TransforMap Object
         terms: "<translate with synonyms or related terms for 'TransforMap Object', separated by commas>"

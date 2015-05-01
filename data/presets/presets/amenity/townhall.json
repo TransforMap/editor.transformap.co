@@ -1,6 +1,7 @@
 {
     "icon": "town-hall",
     "fields": [
+        "provides","topic","identity","interaction",
         "operator",
         "address",
         "building_area"

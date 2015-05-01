@@ -1,6 +1,9 @@
 {
     "icon": "pub",
     "fields": [
+        "provides",
+        "identity",
+        "interaction",
         "cuisine",
         "operator",
         "address",

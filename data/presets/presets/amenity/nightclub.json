@@ -1,6 +1,9 @@
 {
     "icon": "bar",
     "fields": [
+        "provides",
+        "identity",
+        "interaction",
         "operator",
         "address",
         "building_area",

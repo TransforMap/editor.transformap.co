@@ -1,6 +1,10 @@
 {
     "icon": "school",
     "fields": [
+	"provides",
+        "topic",
+        "identity",
+        "interaction",
         "operator",
         "address"
     ],

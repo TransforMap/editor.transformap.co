@@ -1,6 +1,9 @@
 {
     "icon": "restaurant",
     "fields": [
+        "provides",
+        "identity",
+        "interaction",
         "cuisine",
         "address",
         "building_area",

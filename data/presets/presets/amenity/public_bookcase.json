@@ -1,6 +1,9 @@
 {
     "icon": "library",
     "fields": [
+        "provides",
+        "identity",
+        "interaction",
         "name",
         "operator",
         "capacity",

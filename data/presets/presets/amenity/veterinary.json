@@ -1,6 +1,7 @@
 {
     "icon": "dog-park",
     "fields": [
+        "provides","topic","identity","interaction",
         "operator",
         "address",
         "building_area",

@@ -1,6 +1,9 @@
 {
     "icon": "fast-food",
     "fields": [
+        "provides",
+        "identity",
+        "interaction",
         "cuisine",
         "operator",
         "address",

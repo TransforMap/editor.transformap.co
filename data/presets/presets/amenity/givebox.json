@@ -1,4 +1,11 @@
 {
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
+        "operator",
+        "address",
+    ],
     "geometry": [
         "point",
         "vertex"

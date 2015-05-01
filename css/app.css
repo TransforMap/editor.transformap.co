@@ -27,9 +27,11 @@ body {
 }
 
 .id-container {
-    height: 100%;
+    /* height: 100%; */
+    top:50px;
+    bottom:0;
     width: 100%;
-    position: fixed;
+    position: absolute;
     min-width: 768px;
 }
 
@@ -606,7 +608,7 @@ a:hover .icon.out-link   { background-position: -500px -14px;}
     position: fixed;
     padding: 10px 0;
     left:0;
-    top:0;
+    top:50px;
     right:0;
     height:60px;
     z-index: 9;
@@ -1724,7 +1726,7 @@ img.wiki-image {
 
 .map-controls {
     right: 0;
-    top: 70px;
+    top: 120px;
     width: 40px;
     position: fixed;
     z-index: 100;
@@ -2990,4 +2992,46 @@ img.wiki-image {
     width: 100px;
     background: rgba(0, 0, 0, 0) url(img/sprite.svg) no-repeat -400px -220px;
     margin: auto;
+}
+
+.mmmnavbar {
+  font-size: 14px;
+  background: #455473;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index:1005;
+  color:#FFF;
+  font: normal normal 400 14px/20px "PT Sans";
+  vertical-align:middle;
+  text-align:center;
+}
+
+.mmmnavbar a {
+  color: #DDDDDD;
+  height:100%;
+}
+
+.mmmnavbar a:hover {
+  text-decoration: none;
+  color:#FFF;
+}
+
+.mmmnavbar ul {
+        width:939px;
+        margin:0;
+        padding:0;
+}
+
+.mmmnavbar ul li {
+  display: inline;
+  vertical-align:middle;
+  height:50px;
+  padding:10px;
+}
+.mmmnavbar ul li img {
+        vertical-align:middle;
+        margin:10px;
 }

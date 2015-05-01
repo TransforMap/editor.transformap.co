@@ -130,3 +130,18 @@ Future:
   Quick "Switch to OSM Mode" with full features
   Photo upload - ends on other server (mediawiki?), sets link as "image" tag
   adding of Events - ends on other server
+
+
+new presets needed
+  Tausch&Schenkregal (givebox) -> amenity=givebox
+  Volkskueche
+  csa-abholpunkt
+  food-coop
+
+
+
+bug:
+  if you forget the "category-" prefix when adding them to defaults.json, the JS throws an error.
+
+
+  amenity/doctor is inconsistent, should be doctors

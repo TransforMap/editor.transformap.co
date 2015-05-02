@@ -1498,7 +1498,10 @@ div.combobox {
     overflow: hidden;
 }
 
-.combobox a.selected,
+.combobox a.selected {
+    font-weight: 600;
+}
+
 .combobox a:hover {
     background: #ececec;
 }

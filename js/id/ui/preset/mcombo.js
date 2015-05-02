@@ -51,10 +51,12 @@ iD.ui.preset.typeMCombo = function(field, context) {
                 strs = [],
                 placeholders;
 
-            combobox.data(keys.map(function(k) {
+            combobox.data(
+                keys.map( function(k,i) {
                 var s = strings[k],
                     o = {};
                 o.title = o.value = s;
+                o.idx = i;
                 if (s.length < 20) { strs.push(s); }
                 return o;
             }));
@@ -73,7 +75,7 @@ iD.ui.preset.typeMCombo = function(field, context) {
                 .join(';')
                 .replace(/\s+/g, '_'));
  
-        console.log("!chage",value);
+        //console.log("!chage",value);
 
         if (field.type === 'typeMCombo' && !value) value = 'yes';
 

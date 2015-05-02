@@ -1,4 +1,6 @@
 d3.combobox = function() {
+    // console.log("!d3.combobox");
+
     var event = d3.dispatch('accept'),
         data = [],
         suggestions = [],
@@ -14,6 +16,8 @@ d3.combobox = function() {
     };
 
     var combobox = function(input) {
+        //console.log("!d3.combobox2",input);
+
         var idx = -1,
             container = d3.select(document.body)
                 .selectAll('div.combobox')
@@ -85,6 +89,8 @@ d3.combobox = function() {
         }
 
         function hide() {
+            // console.log("!d3.combobox.hide");
+
             if (shown) {
                 idx = -1;
                 container.remove();
@@ -197,6 +203,8 @@ d3.combobox = function() {
         }
 
         function render() {
+            // console.log("!d3.combobox.render");
+
             if (suggestions.length >= minItems && document.activeElement === input.node()) {
                 show();
             } else {

@@ -57,6 +57,7 @@ iD.ui.preset.typeMCombo = function(field, context) {
                     o = {};
                 o.title = o.value = s;
                 o.idx = i;
+                o.selected = false;
                 if (s.length < 20) { strs.push(s); }
                 return o;
             }));
@@ -72,8 +73,10 @@ iD.ui.preset.typeMCombo = function(field, context) {
             value = optstring || (input.value()
                 .split(';')
                 .map(function(s) { return s.trim(); })
-                .join(';')
-                .replace(/\s+/g, '_'));
+                .join('; ')
+                // TODO: is this needed ?
+                // .replace(/\s+/g, '_')
+        );
  
         //console.log("!chage",value);
 

@@ -32,6 +32,7 @@ body {
     bottom:0;
     width: 100%;
     position: absolute;
+    position: fixed;
     min-width: 768px;
 }
 
@@ -1484,7 +1485,14 @@ div.combobox {
     overflow: hidden;
 }
 
-.combobox a.selected,
+.combobox a.mcombobox-option span {
+    padding-left: 10px;
+}
+
+.combobox a.selected {
+    font-weight: 600;
+}
+
 .combobox a:hover {
     background: #ececec;
 }

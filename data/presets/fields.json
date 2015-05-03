@@ -410,7 +410,7 @@
     },
     "cuisine": {
         "key": "cuisine",
-        "type": "combo",
+        "type": "mcombo",
         "label": "Cuisine"
     },
     "delivery": {

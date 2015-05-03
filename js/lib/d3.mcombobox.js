@@ -1,15 +1,14 @@
 d3.mcombobox = function() {
-    // console.log("!d3.combobox");
-
     var event = d3.dispatch('accept'),
         data = [],
         suggestions = [],
         minItems = 2;
 
+
+
     var fetcher = function(val, cb) {
-        // console.log("!fetcher",val,cb);
         cb(data.filter( function(d) {
-            // returns true if val is contained in d.value 
+            // returns true if val is contained in d.value
             return d.value
                 .toString()
                 .toLowerCase()
@@ -18,8 +17,6 @@ d3.mcombobox = function() {
     };
 
     var mcombobox = function(input) {
-        // console.log("!d3.mcombobox2",input);
-
         var selected = [],
             container = d3.select(document.body)
                 .selectAll('div.combobox')
@@ -61,8 +58,8 @@ d3.mcombobox = function() {
             });
 
         function focus() {
-            fetch(value(), render);
-        }   
+            fetch(value(), setup);
+        }
 
         function blur() {
             window.setTimeout(hide, 150);
@@ -92,8 +89,6 @@ d3.mcombobox = function() {
         }
 
         function hide() {
-            // console.log("!d3.combobox.hide");
-            return;
             if (shown) {
                 selected = [];
                 container.remove();
@@ -155,6 +150,18 @@ d3.mcombobox = function() {
             }
         }
 
+        function setup() {
+            var initial_values =
+               _.map( input.value().split(";"),
+                   function (s) { return s.trim(); });
+
+            _.forEach(data, function(d) {
+                d.selected = _.indexOf(initial_values,d.value) >= 0;
+            });
+
+            render();
+        }
+
         function change() {
             fetch(value(), function() {
                 autocomplete();
@@ -177,15 +184,15 @@ d3.mcombobox = function() {
         }
 
         function fetch(v, cb) {
-            fetcher.call(input, v, function(_) {                
+            fetcher.call(input, v, function(_) {
                 suggestions = _;
                 cb();
             });
         }
 
         function autocomplete() {
-            // TODO
-            var v = _last(value().split(";")).trim();
+            return; // TODO
+            var v = _.last(value().split(";")).trim();
 
             var idx = -1;
 
@@ -203,7 +210,6 @@ d3.mcombobox = function() {
         }
 
         function render() {
-            // console.log("!mcombobox.render");
 
             if (suggestions.length >= minItems && document.activeElement === input.node()) {
                 show();
@@ -217,11 +223,11 @@ d3.mcombobox = function() {
                 .data(suggestions, function(d) { return d.value; } )
             ;
 
-            options.enter().append('a')
-                .attr('class', 'mcombobox-option')
-                .append('i')
-                .append('span').text( function(d) { return d.value; } )
-            ;
+            var new_options = options.enter().append('a')
+                .attr('class', 'mcombobox-option');
+
+            new_options.append('i');
+            new_options.append('span').text( function(d) { return d.value; });
 
             options
                 .attr('title', function(d) { return d.title; })
@@ -229,12 +235,12 @@ d3.mcombobox = function() {
                 .on('click', toggle)
                 .order()
             ;
-    
+
             options
                 .selectAll("i")
                 .attr('class', function(d) {
-                    if ( d.selected) { return 'fa fa-check-square'; }
-                                else { return 'fa fa-square'; } 
+                    if ( d.selected) { return 'fa fa-check-square-o'; }
+                                else { return 'fa fa-square-o'; }
                 })
             ;
 
@@ -255,7 +261,7 @@ d3.mcombobox = function() {
             // console.log("!select",d,i,selected);
             d.selected = !d.selected;
             render();
-            input.property('value', 
+            input.property('value',
                 set_value( input.property('value'),d.value, d.selected )
             ).trigger('change');
 
@@ -271,7 +277,7 @@ d3.mcombobox = function() {
             if ( !enable ) {
                 val = val.replace(key,"");
             } else {
-                val = val +"; "+key; 
+                val = val +"; "+key;
             }
             // console.log("res",val);
             return val.replace(/^;[\s]*/,'').replace(/[\s]*;[\s]*;[\s]*/,'; ');

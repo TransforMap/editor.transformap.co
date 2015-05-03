@@ -1498,6 +1498,10 @@ div.combobox {
     overflow: hidden;
 }
 
+.combobox a.mcombobox-option span {
+    padding-left: 10px;
+}
+
 .combobox a.selected {
     font-weight: 600;
 }

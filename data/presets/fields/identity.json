@@ -1,6 +1,6 @@
 {
     "key": "identity",
-    "type": "combo",
+    "type": "mcombo",
     "label": "Self-Description of a Community",
     "placeholder": "Commons, Transition Town Initiative, ...",
     "strings": {

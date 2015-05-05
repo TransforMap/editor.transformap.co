@@ -651,7 +651,7 @@
     },
     "identity": {
         "key": "identity",
-        "type": "combo",
+        "type": "mcombo",
         "label": "Self-Description of a Community",
         "placeholder": "Commons, Transition Town Initiative, ...",
         "strings": {
@@ -700,7 +700,7 @@
     },
     "interaction": {
         "key": "interaction",
-        "type": "combo",
+        "type": "mcombo",
         "label": "Mode of Interaction",
         "placeholder": "bartering, cousing, ...",
         "strings": {
@@ -1046,7 +1046,7 @@
     },
     "provides": {
         "key": "provides",
-        "type": "combo",
+        "type": "mcombo",
         "label": "Needs fulfilled by a community",
         "placeholder": "food+drink , water, land, ...",
         "strings": {
@@ -1431,7 +1431,7 @@
     },
     "topic": {
         "key": "topic",
-        "type": "combo",
+        "type": "mcombo",
         "label": "Topic of an Organisation",
         "placeholder": "food+drink , water, land, ...",
         "strings": {

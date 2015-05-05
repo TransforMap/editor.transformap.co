@@ -1,6 +1,6 @@
 {
     "key": "provides",
-    "type": "combo",
+    "type": "mcombo",
     "label": "Needs fulfilled by a community",
     "placeholder": "food+drink , water, land, ...",
     "strings": {

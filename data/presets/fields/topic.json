@@ -1,6 +1,6 @@
 {
     "key": "topic",
-    "type": "combo",
+    "type": "mcombo",
     "label": "Topic of an Organisation",
     "placeholder": "food+drink , water, land, ...",
     "strings": {

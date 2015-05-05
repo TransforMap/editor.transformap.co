@@ -1,6 +1,6 @@
 {
     "key": "interaction",
-    "type": "combo",
+    "type": "mcombo",
     "label": "Mode of Interaction",
     "placeholder": "bartering, cousing, ...",
     "strings": {

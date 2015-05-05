@@ -20,7 +20,10 @@
             "energy" : "Energy-focused organisations",
             "community" : "Community-building and empowering organisations.",
             "participation" : "Participation: Organisations who organise participation in various field.",
-            "spirituality" : "Spirituality: Spritiual organisations"
+            "spirituality" : "Spirituality: Spritiual organisations",
+            "telecommunication" : "Telecommunication: Organisations devoted to telecommunication",
+            "air" : "Provides the air we all need to breathe.",
+            "environment" : "Environmentalism-related organisations"
         }
     }
 } 

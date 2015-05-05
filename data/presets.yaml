@@ -594,6 +594,8 @@ en:
           community: "Community: A diverse group of people that offers support and empowerment by coming together."
           participation: "Participation: Here is an opportunity to initiate activities, participate or deliberate on public issues."
           spirituality: "Spirituality: Here you find spaces, places and groups that pursue a contemplative/spiritual connection."
+          telecommunication: "Telecommunication: This facility provides the infrastructure for telecommunication."
+          air: "Air: Provides the air we all need to breathe."
       provides_combotype:
         label: Fulfils Needs
       railway:
@@ -760,6 +762,9 @@ en:
           community: Community-building and empowering organisations.
           participation: "Participation: Organisations who organise participation in various field."
           spirituality: "Spirituality: Spritiual organisations"
+          telecommunication: "Telecommunication: Organisations devoted to telecommunication"
+          air: Provides the air we all need to breathe.
+          environment: Environmentalism-related organisations
       tourism:
         label: Type
       towertype:

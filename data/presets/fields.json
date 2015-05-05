@@ -664,7 +664,11 @@
                 "commons": "Commons: \"Commons\"-based communities collectively and democratically produce, steward, develop or manage shared places, projects, resources, assets or knowledge. See also Eight Design Principles for Managing a Commons set forth by Nobel Prize Laureate Elinor Ostrom.",
                 "economy_for_the_common_good": "Economy for the Common Good: Local chapters of the economy for the common good and corporate bodies that have created a certified balance of the economy for the common good.",
                 "collaborative_economy": "Collaborative Economy: The collaborative economy consists of initiatives based on horizontal networks and participation of a community.",
-                "global_ecovillage_network": "Global Ecovillage Network: Initiatives that are part of the Global Ecovillage Network"
+                "global_ecovillage_network": "Global Ecovillage Network: Initiatives that are part of the Global Ecovillage Network.",
+                "degrowth": "Degrowth: Organisations and projects that identify themselves as being part of degrowth and its synonyms in different languages as for instance décroissance.",
+                "subsistence_economy": "Subsistence Economy: Acitivities for ones own livelyhood and well-being not producing commodities to be sold at the market.",
+                "p2p_economy": "P2P Economy: The peer-to-peer economy consists of people who pool work, ideas and resources to produce something in self-administrated and decentralized associations, instead of conventional seller/buyer market relationships. ",
+                "ecovillage": "Ecovillage, individual."
             }
         }
     },

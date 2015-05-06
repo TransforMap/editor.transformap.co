@@ -3002,17 +3002,8 @@ img.wiki-image {
     margin: auto;
 }
 
-/* taken from http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css */
-@font-face {
-    font-family: 'FontAwesome';
-    src: url('font-awesome/4.3.0/fontawesome-webfont.eot');
-    src: url('font-awesome/4.3.0/fontawesome-webfont.iefix.eot') format('embedded-opentype'), url('font-awesome/4.3.0/fontawesome-webfont.woff2') format('woff2'), url('font-awesome/4.3.0/fontawesome-webfont.woff') format('woff'), url('font-awesome/4.3.0/fontawesome-webfont.ttf') format('truetype'), url('font-awesome/4.3.0/fontawesome-webfont.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 .fa {
     display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -3020,10 +3011,10 @@ img.wiki-image {
     transform: translate(0, 0);
 }
 .fa-square-o:before {
-    content: "\f096";
+    content: "\2610";
 }
 .fa-check-square-o:before {
-  content: "\f046";
+  content: "\2611";
 }
 
 .mmmnavbar {

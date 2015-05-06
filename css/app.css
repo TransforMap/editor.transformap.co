@@ -3015,6 +3015,7 @@ img.wiki-image {
 }
 .fa-check-square-o:before {
   content: "\2611";
+  font-weight:normal;
 }
 
 .mmmnavbar {

@@ -227,7 +227,7 @@ d3.mcombobox = function() {
                 .attr('class', 'mcombobox-option');
 
             new_options.append('i');
-            new_options.append('span').text( function(d) { return d.value; });
+            new_options.append('span').text( function(d) { return d.label; });
 
             options
                 .attr('title', function(d) { return d.title; })

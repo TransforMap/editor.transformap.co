@@ -3002,7 +3002,7 @@ img.wiki-image {
     margin: auto;
 }
 
-.fa {
+.mcombo {
     display: inline-block;
     font-size: inherit;
     text-rendering: auto;
@@ -3010,10 +3010,10 @@ img.wiki-image {
     -moz-osx-font-smoothing: grayscale;
     transform: translate(0, 0);
 }
-.fa-square-o:before {
+.mcombo.square:before {
     content: "\2610";
 }
-.fa-check-square-o:before {
+.mcombo.check-square:before {
   content: "\2611";
   font-weight:normal;
 }

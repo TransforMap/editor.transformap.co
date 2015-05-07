@@ -239,8 +239,8 @@ d3.mcombobox = function() {
             options
                 .selectAll("i")
                 .attr('class', function(d) {
-                    if ( d.selected) { return 'fa fa-check-square-o'; }
-                                else { return 'fa fa-square-o'; }
+                    if ( d.selected) { return 'mcombo check-square'; }
+                                else { return 'mcombo square'; }
                 })
             ;
 

@@ -15,15 +15,15 @@
             "housing" : "Housing: Organisations who care about housing.",
             "spaces" : "Free Space: Organisations which are concerned about open spaces.",
             "objects_of_utility" : "Objects of Utility: Organisations devoted to objects of utility.",
-            "clothes" : "Clothes-related organisations (traders,company HQs,charity organisations with focus on clothes).",
+            "clothes" : "Clothes: Clothes-related organisations (traders,company HQs,charity organisations with focus on clothes).",
             "learning_opportunities" : "Knowledge & Skills: Organisations devoted to science and education.",
-            "energy" : "Energy-focused organisations",
-            "community" : "Community-building and empowering organisations.",
+            "energy" : "Energy: Energy-focused organisations",
+            "community" : "Community: Community:-building and empowering organisations.",
             "participation" : "Participation: Organisations who organise participation in various field.",
             "spirituality" : "Spirituality: Spritiual organisations",
             "telecommunication" : "Telecommunication: Organisations devoted to telecommunication",
-            "air" : "Provides the air we all need to breathe.",
-            "environment" : "Environmentalism-related organisations"
+            "air" : "Air: Organisation caring about the air we all need to breathe.",
+            "environment" : "Environment: Environmentalism-related organisations"
         }
     }
 } 

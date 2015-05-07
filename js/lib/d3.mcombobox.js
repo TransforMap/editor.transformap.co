@@ -275,7 +275,10 @@ d3.mcombobox = function() {
         function set_value(current_values,key,enable) {
             // console.log("set_value",val,key,enable);
             if ( !enable ) {
-                current_values = current_values.replace(key,"");
+                current_values = current_values
+                    .replace(key,"")
+                    .trim()
+                    .replace(/;$/,"");
             } else {
                 current_values = current_values +"; "+key;
             }

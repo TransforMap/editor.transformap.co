@@ -272,15 +272,15 @@ d3.mcombobox = function() {
             if (node) node.scrollIntoView();
         }
 
-        function set_value(val,key,enable) {
+        function set_value(current_values,key,enable) {
             // console.log("set_value",val,key,enable);
             if ( !enable ) {
-                val = val.replace(key,"");
+                current_values = current_values.replace(key,"");
             } else {
-                val = val +"; "+key;
+                current_values = current_values +"; "+key;
             }
             // console.log("res",val);
-            return val.replace(/^;[\s]*/,'').replace(/[\s]*;[\s]*;[\s]*/,'; ');
+            return current_values.replace(/^;[\s]*/,'').replace(/[\s]*;[\s]*;[\s]*/,'; ');
         }
 
         function accept(d) {

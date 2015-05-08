@@ -14,7 +14,7 @@
         "area"
     ],
     "tags": {
-        "provides": "*"
+        "identity": "*"
     },
     "name": "TransforMap Object"
 }

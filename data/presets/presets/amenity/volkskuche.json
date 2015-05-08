@@ -9,9 +9,10 @@
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
-    "terms": [ "Volkskuche"
+    "terms": [ "Volksküche"
     ],
     "tags": {
         "amenity": "social_facility",

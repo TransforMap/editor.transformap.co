@@ -2198,12 +2198,6 @@
             "key": "provides"
         },
         {
-            "key": "topic"
-        },
-        {
-            "key": "provides"
-        },
-        {
             "key": "type",
             "value": "boundary"
         },

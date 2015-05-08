@@ -1,5 +1,6 @@
 {
     "fields": [
+        "description",
         "provides",
         "topic",
         "identity",
@@ -9,6 +10,7 @@
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "tags": {

@@ -3853,14 +3853,6 @@
                 "name": "Raised Pedestrian Crossing",
                 "terms": "speed table,flat top hump"
             },
-            "transfor-direct": {
-                "name": "POI fulfilling direct needs",
-                "terms": ""
-            },
-            "transfor-indirect": {
-                "name": "Organisation caring about needs",
-                "terms": ""
-            },
             "transfortest": {
                 "name": "TransforMap Object",
                 "terms": ""

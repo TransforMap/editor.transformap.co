@@ -2497,12 +2497,6 @@ en:
       traffic_calming/table:
         name: Raised Pedestrian Crossing
         terms: "<translate with synonyms or related terms for 'Raised Pedestrian Crossing', separated by commas>"
-      transfor-direct:
-        name: POI fulfilling direct needs
-        terms: "<translate with synonyms or related terms for 'POI fulfilling direct needs', separated by commas>"
-      transfor-indirect:
-        name: Organisation caring about needs
-        terms: "<translate with synonyms or related terms for 'Organisation caring about needs', separated by commas>"
       transfortest:
         name: TransforMap Object
         terms: "<translate with synonyms or related terms for 'TransforMap Object', separated by commas>"

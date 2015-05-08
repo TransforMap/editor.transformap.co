@@ -1,7 +1,5 @@
 {
     "area": [
-        "transfor-direct",
-        "transfor-indirect",
         "category-landuse",
         "category-building",
         "category-pois",
@@ -36,10 +34,11 @@
         "category-provides_community",
         "category-provides_participation",
         "category-provides_spirituality",
-        "transfor-indirect",
+        "transfortest",
         "point"
     ],
     "vertex": [
+        "transfortest",
         "highway/crosswalk",
         "railway/level_crossing",
         "highway/traffic_signals",

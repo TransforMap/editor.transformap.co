@@ -10572,41 +10572,9 @@
         ],
         "name": "Raised Pedestrian Crossing"
     },
-    "transfor-direct": {
-        "fields": [
-            "provides",
-            "identity",
-            "interaction",
-            "address"
-        ],
-        "geometry": [
-            "point",
-            "area"
-        ],
-        "tags": {
-            "provides": "*"
-        },
-        "name": "POI fulfilling direct needs"
-    },
-    "transfor-indirect": {
-        "icon": "flagpole",
-        "fields": [
-            "topic",
-            "identity",
-            "interaction",
-            "address"
-        ],
-        "geometry": [
-            "point",
-            "area"
-        ],
-        "tags": {
-            "topic": "*"
-        },
-        "name": "Organisation caring about needs"
-    },
     "transfortest": {
         "fields": [
+            "description",
             "provides",
             "topic",
             "identity",
@@ -10616,6 +10584,7 @@
         ],
         "geometry": [
             "point",
+            "vertex",
             "area"
         ],
         "tags": {

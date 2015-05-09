@@ -1283,7 +1283,7 @@
     },
     "social_facility_for": {
         "key": "social_facility:for",
-        "type": "radio",
+        "type": "mcombo",
         "label": "People served",
         "placeholder": "Homeless, Disabled, Child, etc",
         "options": [
@@ -1318,7 +1318,7 @@
     },
     "sport": {
         "key": "sport",
-        "type": "combo",
+        "type": "mcombo",
         "label": "Sport"
     },
     "sport_ice": {
@@ -1376,7 +1376,7 @@
     },
     "studio_type": {
         "key": "type",
-        "type": "combo",
+        "type": "mcombo",
         "label": "Type",
         "options": [
             "audio",
@@ -1511,7 +1511,7 @@
     },
     "vending": {
         "key": "vending",
-        "type": "combo",
+        "type": "mcombo",
         "label": "Type of Goods"
     },
     "water": {

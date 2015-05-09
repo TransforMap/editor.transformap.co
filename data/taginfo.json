@@ -2195,7 +2195,7 @@
             "value": "table"
         },
         {
-            "key": "provides"
+            "key": "identity"
         },
         {
             "key": "type",

@@ -15,14 +15,14 @@
 If you want to deploy a new version on editor.transformap.co:
 
 * Get an account, ask here on [Discourse](http://discourse.transformap.co/t/id-editor-deployment-coordination/366/6).
-* check out this or a fork
+* clone this or a fork
 * edit
-* "make", your changes get compiled into dist/
+* call "make", your changes get compiled into dist/
 * check out the "dist" branch: "git checkout dist"
 * the "dist" branch is simply a copy of the "dist/"-folder with compiled source
-* copy all files from dist/ into the /-folder of the "dist"-branch
-* git remote add update dokku@apps.ecobytes.net:id
-* git push --set-upstream origin dist
+* copy all files from dist/ into the /-folder of the "dist"-branch, commit.
+* git remote add update dokku@apps.ecobytes.net:id (needed only 1st time)
+* git push --set-upstream origin dist (needed only 1st time)
 * git push update dist:master
 
 ## License

@@ -1,9 +1,0 @@
-{
-    "key": "type",
-    "type": "mcombo",
-    "label": "Type",
-    "options": [
-        "audio",
-        "video"
-    ]
-}

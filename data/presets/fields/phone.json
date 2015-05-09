@@ -1,7 +1,0 @@
-{
-    "key": "phone",
-    "type": "tel",
-    "icon": "telephone",
-    "label": "Phone",
-    "placeholder": "+31 42 123 4567"
-}

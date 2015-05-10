@@ -29565,7 +29565,7 @@ iD.ui.Commit = function(context) {
         var commentField = commentSection.append('textarea')
             .attr('placeholder', t('commit.description_placeholder'))
             .attr('maxlength', 255)
-            .property('value', context.storage('comment') || '')
+            .property('value', context.storage('comment') || '#TransforMap')
             .on('blur.save', function () {
                 context.storage('comment', this.value);
             });

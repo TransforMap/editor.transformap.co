@@ -51476,6 +51476,15 @@ iD.introGraph = '{"n185954700":{"id":"n185954700","loc":[-85.642244,41.939081],"
                 "provides_combotype": {
                     "label": "Fulfils Needs"
                 },
+                "provides_land": {
+                    "label": "Type of Land",
+                    "placeholder": "rural, urban, rurban",
+                    "options": {
+                        "rural": "Rural land",
+                        "urban": "Urban land",
+                        "rurban": "Rural/Urban (rurban) land"
+                    }
+                },
                 "railway": {
                     "label": "Type"
                 },
@@ -53393,12 +53402,68 @@ iD.introGraph = '{"n185954700":{"id":"n185954700","loc":[-85.642244,41.939081],"
                     "name": "Transformer",
                     "terms": ""
                 },
+                "provides/clothes": {
+                    "name": "Other POI providing clothes",
+                    "terms": ""
+                },
+                "provides/community": {
+                    "name": "Other POI providing community",
+                    "terms": ""
+                },
+                "provides/culture": {
+                    "name": "Other POI providing culture",
+                    "terms": ""
+                },
+                "provides/energy": {
+                    "name": "Other POI providing energy",
+                    "terms": ""
+                },
                 "provides/food+drink": {
-                    "name": "provides: food & drink",
+                    "name": "Other POI providing Food & Drink",
+                    "terms": ""
+                },
+                "provides/health": {
+                    "name": "Other POI providing health",
+                    "terms": ""
+                },
+                "provides/housing": {
+                    "name": "Other POI providing housing",
+                    "terms": ""
+                },
+                "provides/land": {
+                    "name": "Other POI providing Land",
+                    "terms": ""
+                },
+                "provides/learning_opportunities": {
+                    "name": "Other POI providing knowledge & skills",
+                    "terms": ""
+                },
+                "provides/mobility": {
+                    "name": "Other POI providing Mobility",
+                    "terms": ""
+                },
+                "provides/objects_of_utility": {
+                    "name": "Other POI providing objects of utility",
+                    "terms": ""
+                },
+                "provides/participation": {
+                    "name": "Other POI providing participation",
+                    "terms": ""
+                },
+                "provides/safety": {
+                    "name": "Other POI providing safety",
+                    "terms": ""
+                },
+                "provides/spaces": {
+                    "name": "Other POI providing free space",
+                    "terms": ""
+                },
+                "provides/spirituality": {
+                    "name": "Other POI providing spirituality",
                     "terms": ""
                 },
                 "provides/water": {
-                    "name": "provides: water",
+                    "name": "Other POI providing Water",
                     "terms": ""
                 },
                 "public_transport/platform": {

@@ -1606,6 +1606,70 @@
             "value": "transformer"
         },
         {
+            "key": "provides",
+            "value": "clothes"
+        },
+        {
+            "key": "provides",
+            "value": "community"
+        },
+        {
+            "key": "provides",
+            "value": "culture"
+        },
+        {
+            "key": "provides",
+            "value": "energy"
+        },
+        {
+            "key": "provides",
+            "value": "food+drink"
+        },
+        {
+            "key": "provides",
+            "value": "health"
+        },
+        {
+            "key": "provides",
+            "value": "housing"
+        },
+        {
+            "key": "provides",
+            "value": "land"
+        },
+        {
+            "key": "provides",
+            "value": "learning_opportunities"
+        },
+        {
+            "key": "provides",
+            "value": "mobility"
+        },
+        {
+            "key": "provides",
+            "value": "objects_of_utility"
+        },
+        {
+            "key": "provides",
+            "value": "participation"
+        },
+        {
+            "key": "provides",
+            "value": "safety"
+        },
+        {
+            "key": "provides",
+            "value": "spaces"
+        },
+        {
+            "key": "provides",
+            "value": "spirituality"
+        },
+        {
+            "key": "provides",
+            "value": "water"
+        },
+        {
             "key": "public_transport",
             "value": "platform"
         },

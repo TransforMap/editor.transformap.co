@@ -8,6 +8,7 @@
         "amenity/university",
         "amenity/college",
         "amenity/school",
-        "leisure/hackerspace"
+        "leisure/hackerspace",
+        "provides/learning_opportunities"
     ]
 }

@@ -15,7 +15,7 @@
         "area"
     ],
     "tags": {
-        "provides": "food+drink"
+        "provides": "objects_of_utility"
     },
-    "name": "Other POI providing Food & Drink"
+    "name": "Other POI providing objects of utility"
 }

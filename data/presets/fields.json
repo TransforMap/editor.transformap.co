@@ -1078,6 +1078,19 @@
         "type": "typeCombo",
         "label": "Fulfils Needs"
     },
+    "provides_land": {
+        "key": "provides:land",
+        "type": "mcombo",
+        "label": "Type of Land",
+        "placeholder": "rural, urban, rurban",
+        "strings": {
+            "options": {
+                "rural": "Rural land",
+                "urban": "Urban land",
+                "rurban": "Rural/Urban (rurban) land"
+            }
+        }
+    },
     "railway": {
         "key": "railway",
         "type": "typeCombo",

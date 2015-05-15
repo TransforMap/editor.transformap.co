@@ -12,6 +12,7 @@
         "office/therapist",
         "office/physician",
         "emergency/ambulance_station",
-        "amenity/veterinary"
+        "amenity/veterinary",
+        "provides/health"
     ]
 }

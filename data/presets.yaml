@@ -603,6 +603,13 @@ en:
           air: "Air: Provides the air we all need to breathe."
       provides_combotype:
         label: Fulfils Needs
+      provides_land:
+        label: Type of Land
+        placeholder: "rural, urban, rurban"
+        options:
+          rural: Rural land
+          urban: Urban land
+          rurban: Rural/Urban (rurban) land
       railway:
         label: Type
       recycling/cans:
@@ -2042,12 +2049,54 @@ en:
       power/transformer:
         name: Transformer
         terms: "<translate with synonyms or related terms for 'Transformer', separated by commas>"
+      provides/clothes:
+        name: Other POI providing clothes
+        terms: "<translate with synonyms or related terms for 'Other POI providing clothes', separated by commas>"
+      provides/community:
+        name: Other POI providing community
+        terms: "<translate with synonyms or related terms for 'Other POI providing community', separated by commas>"
+      provides/culture:
+        name: Other POI providing culture
+        terms: "<translate with synonyms or related terms for 'Other POI providing culture', separated by commas>"
+      provides/energy:
+        name: Other POI providing energy
+        terms: "<translate with synonyms or related terms for 'Other POI providing energy', separated by commas>"
       provides/food+drink:
-        name: "provides: food & drink"
-        terms: "<translate with synonyms or related terms for 'provides: food & drink', separated by commas>"
+        name: "Other POI providing Food & Drink"
+        terms: "<translate with synonyms or related terms for 'Other POI providing Food & Drink', separated by commas>"
+      provides/health:
+        name: Other POI providing health
+        terms: "<translate with synonyms or related terms for 'Other POI providing health', separated by commas>"
+      provides/housing:
+        name: Other POI providing housing
+        terms: "<translate with synonyms or related terms for 'Other POI providing housing', separated by commas>"
+      provides/land:
+        name: Other POI providing Land
+        terms: "<translate with synonyms or related terms for 'Other POI providing Land', separated by commas>"
+      provides/learning_opportunities:
+        name: "Other POI providing knowledge & skills"
+        terms: "<translate with synonyms or related terms for 'Other POI providing knowledge & skills', separated by commas>"
+      provides/mobility:
+        name: Other POI providing Mobility
+        terms: "<translate with synonyms or related terms for 'Other POI providing Mobility', separated by commas>"
+      provides/objects_of_utility:
+        name: Other POI providing objects of utility
+        terms: "<translate with synonyms or related terms for 'Other POI providing objects of utility', separated by commas>"
+      provides/participation:
+        name: Other POI providing participation
+        terms: "<translate with synonyms or related terms for 'Other POI providing participation', separated by commas>"
+      provides/safety:
+        name: Other POI providing safety
+        terms: "<translate with synonyms or related terms for 'Other POI providing safety', separated by commas>"
+      provides/spaces:
+        name: Other POI providing free space
+        terms: "<translate with synonyms or related terms for 'Other POI providing free space', separated by commas>"
+      provides/spirituality:
+        name: Other POI providing spirituality
+        terms: "<translate with synonyms or related terms for 'Other POI providing spirituality', separated by commas>"
       provides/water:
-        name: "provides: water"
-        terms: "<translate with synonyms or related terms for 'provides: water', separated by commas>"
+        name: Other POI providing Water
+        terms: "<translate with synonyms or related terms for 'Other POI providing Water', separated by commas>"
       public_transport/platform:
         name: Platform
         terms: "<translate with synonyms or related terms for 'Platform', separated by commas>"

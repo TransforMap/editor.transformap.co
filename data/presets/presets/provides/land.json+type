@@ -3,6 +3,7 @@
         "name",
         "description",
         "provides",
+        "provides:land",
         "topic",
         "identity",
         "interaction",
@@ -15,7 +16,7 @@
         "area"
     ],
     "tags": {
-        "provides": "food+drink"
+        "provides": "land"
     },
-    "name": "Other POI providing Food & Drink"
+    "name": "Other POI providing Land"
 }

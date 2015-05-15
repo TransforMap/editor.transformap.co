@@ -6,6 +6,7 @@
         "amenity/bicycle_rental",
         "amenity/bicycle_repair_station",
         "amenity/car_rental",
-        "amenity/car_sharing"
+        "amenity/car_sharing",
+        "provides/mobility"
     ]
 }

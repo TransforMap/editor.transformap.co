@@ -4,6 +4,8 @@
     "icon": "water",
     "members": [
         "amenity/drinking_water",
-        "amenity/fountain"
+        "amenity/fountain",
+        "natural/spring",
+        "provides/water"
     ]
 }

@@ -5,6 +5,7 @@
     "members": [
         "amenity/place_of_worship",
         "historic/wayside_cross",
-        "historic/wayside_shrine"
+        "historic/wayside_shrine",
+        "provides/spirituality"
     ]
 }

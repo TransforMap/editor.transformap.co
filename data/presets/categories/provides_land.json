@@ -4,6 +4,7 @@
     "icon": "land-use",
     "members": [
         "landuse/greenfield",
-        "landuse/brownfield"
+        "landuse/brownfield",
+        "provides/land"
     ]
 }

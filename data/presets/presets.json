@@ -7583,33 +7583,341 @@
         },
         "name": "Transformer"
     },
-    "provides/food+drink": {
+    "provides/clothes": {
         "fields": [
             "name",
-            "provides_combotype",
-            "identity_combotype"
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
         ],
         "geometry": [
             "point",
             "vertex",
             "area"
         ],
-        "tags": {},
-        "name": "provides: food & drink"
+        "tags": {
+            "provides": "clothes"
+        },
+        "name": "Other POI providing clothes"
+    },
+    "provides/community": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "community"
+        },
+        "name": "Other POI providing community"
+    },
+    "provides/culture": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "culture"
+        },
+        "name": "Other POI providing culture"
+    },
+    "provides/energy": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "energy"
+        },
+        "name": "Other POI providing energy"
+    },
+    "provides/food+drink": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "food+drink"
+        },
+        "name": "Other POI providing Food & Drink"
+    },
+    "provides/health": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "health"
+        },
+        "name": "Other POI providing health"
+    },
+    "provides/housing": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "housing"
+        },
+        "name": "Other POI providing housing"
+    },
+    "provides/land": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "land"
+        },
+        "name": "Other POI providing Land"
+    },
+    "provides/learning_opportunities": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "learning_opportunities"
+        },
+        "name": "Other POI providing knowledge & skills"
+    },
+    "provides/mobility": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "mobility"
+        },
+        "name": "Other POI providing Mobility"
+    },
+    "provides/objects_of_utility": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "objects_of_utility"
+        },
+        "name": "Other POI providing objects of utility"
+    },
+    "provides/participation": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "participation"
+        },
+        "name": "Other POI providing participation"
+    },
+    "provides/safety": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "safety"
+        },
+        "name": "Other POI providing safety"
+    },
+    "provides/spaces": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "spaces"
+        },
+        "name": "Other POI providing free space"
+    },
+    "provides/spirituality": {
+        "fields": [
+            "name",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "spirituality"
+        },
+        "name": "Other POI providing spirituality"
     },
     "provides/water": {
         "fields": [
             "name",
-            "provides_combotype",
-            "identity_combotype"
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
         ],
         "geometry": [
             "point",
             "vertex",
             "area"
         ],
-        "tags": {},
-        "name": "provides: water"
+        "tags": {
+            "provides": "water"
+        },
+        "name": "Other POI providing Water"
     },
     "public_transport/platform": {
         "fields": [

@@ -4,6 +4,7 @@
     "icon": "fire-station",
     "members": [
         "power/generator",
-        "amenity/charging_station"
+        "amenity/charging_station",
+        "provides/energy"
     ]
 }

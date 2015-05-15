@@ -88,7 +88,8 @@
             "shop/clothes",
             "shop/boutique",
             "shop/tailor",
-            "amenity/givebox"
+            "amenity/givebox",
+            "provides/clothes"
         ]
     },
     "category-provides_community": {
@@ -98,7 +99,8 @@
         "members": [
             "leisure/communitygarden",
             "amenity/community_centre",
-            "amenity/volkskuche"
+            "amenity/volkskuche",
+            "provides/community"
         ]
     },
     "category-provides_culture": {
@@ -109,7 +111,8 @@
             "amenity/theatre",
             "amenity/cinema",
             "amenity/studio",
-            "tourism/museum"
+            "tourism/museum",
+            "provides/culture"
         ]
     },
     "category-provides_energy": {
@@ -118,7 +121,8 @@
         "icon": "fire-station",
         "members": [
             "power/generator",
-            "amenity/charging_station"
+            "amenity/charging_station",
+            "provides/energy"
         ]
     },
     "category-provides_food+drink": {
@@ -145,7 +149,8 @@
             "shop/beverages",
             "shop/wine",
             "shop/alcohol",
-            "shop"
+            "shop",
+            "provides/food+drink"
         ]
     },
     "category-provides_health": {
@@ -162,7 +167,8 @@
             "office/therapist",
             "office/physician",
             "emergency/ambulance_station",
-            "amenity/veterinary"
+            "amenity/veterinary",
+            "provides/health"
         ]
     },
     "category-provides_housing": {
@@ -177,7 +183,8 @@
             "tourism/guest_house",
             "tourism/chalet",
             "tourism/camp_site",
-            "tourism/caravan_site"
+            "tourism/caravan_site",
+            "provides/housing"
         ]
     },
     "category-provides_land": {
@@ -186,7 +193,8 @@
         "icon": "land-use",
         "members": [
             "landuse/greenfield",
-            "landuse/brownfield"
+            "landuse/brownfield",
+            "provides/land"
         ]
     },
     "category-provides_learning_opportunities": {
@@ -199,7 +207,8 @@
             "amenity/university",
             "amenity/college",
             "amenity/school",
-            "leisure/hackerspace"
+            "leisure/hackerspace",
+            "provides/learning_opportunities"
         ]
     },
     "category-provides_mobility": {
@@ -210,7 +219,8 @@
             "amenity/bicycle_rental",
             "amenity/bicycle_repair_station",
             "amenity/car_rental",
-            "amenity/car_sharing"
+            "amenity/car_sharing",
+            "provides/mobility"
         ]
     },
     "category-provides_objects_of_utility": {
@@ -221,7 +231,8 @@
             "amenity/bicycle_repair_station",
             "shop/doityourself",
             "leisure/hackerspace",
-            "amenity/fablab"
+            "amenity/fablab",
+            "provides/objects_of_utility"
         ]
     },
     "category-provides_participation": {
@@ -231,7 +242,8 @@
         "members": [
             "club",
             "amenity/community_centre",
-            "amenity/givebox"
+            "amenity/givebox",
+            "provides/participation"
         ]
     },
     "category-provides_safety": {
@@ -240,7 +252,8 @@
         "icon": "police",
         "members": [
             "amenity/police",
-            "amenity/prison"
+            "amenity/prison",
+            "provides/safety"
         ]
     },
     "category-provides_spaces": {
@@ -248,7 +261,8 @@
         "name": "Spaces",
         "icon": "circle-stroked",
         "members": [
-            "shop/vacant"
+            "shop/vacant",
+            "provides/spaces"
         ]
     },
     "category-provides_spirituality": {
@@ -258,7 +272,8 @@
         "members": [
             "amenity/place_of_worship",
             "historic/wayside_cross",
-            "historic/wayside_shrine"
+            "historic/wayside_shrine",
+            "provides/spirituality"
         ]
     },
     "category-provides_water": {
@@ -267,7 +282,9 @@
         "icon": "water",
         "members": [
             "amenity/drinking_water",
-            "amenity/fountain"
+            "amenity/fountain",
+            "natural/spring",
+            "provides/water"
         ]
     },
     "category-rail": {

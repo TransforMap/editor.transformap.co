@@ -4,6 +4,7 @@
     "icon": "police",
     "members": [
         "amenity/police",
-        "amenity/prison"
+        "amenity/prison",
+        "provides/safety"
     ]
 }

@@ -10,6 +10,7 @@
         "tourism/guest_house",
         "tourism/chalet",
         "tourism/camp_site",
-        "tourism/caravan_site"
+        "tourism/caravan_site",
+        "provides/housing"
     ]
 }

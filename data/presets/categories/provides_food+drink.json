@@ -22,6 +22,7 @@
         "shop/beverages",
         "shop/wine",
         "shop/alcohol",
-        "shop"
+        "shop",
+        "provides/food+drink"
     ]
 }

@@ -6,6 +6,7 @@
         "amenity/theatre",
         "amenity/cinema",
         "amenity/studio",
-        "tourism/museum"
+        "tourism/museum",
+        "provides/culture"
     ]
 }

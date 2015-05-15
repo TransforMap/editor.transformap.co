@@ -5,6 +5,7 @@
     "members": [
         "club",
         "amenity/community_centre",
-        "amenity/givebox"
+        "amenity/givebox",
+        "provides/participation"
     ]
 }

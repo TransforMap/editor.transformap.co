@@ -11166,7 +11166,7 @@
         "name": "POI fulfilling direct needs"
     },
     "transformap-indirect": {
-        "icon": "flagpole",
+        "icon": "embassy",
         "fields": [
             "name",
             "description",

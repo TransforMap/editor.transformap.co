@@ -7,6 +7,7 @@
         "operator",
         "address",
         "building_area",
+        "farm_boxes",
         "opening_hours"
     ],
     "geometry": [

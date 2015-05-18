@@ -8,6 +8,7 @@
         "building_area",
         "opening_hours",
         "regional",
+        "farm_boxes",
         "organic"
     ],
     "geometry": [

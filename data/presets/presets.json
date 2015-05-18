@@ -1255,6 +1255,7 @@
             "building_area",
             "opening_hours",
             "regional",
+            "farm_boxes",
             "organic"
         ],
         "geometry": [
@@ -2436,6 +2437,11 @@
         "icon": "building",
         "fields": [
             "building",
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
             "levels",
             "address"
         ],
@@ -4114,6 +4120,36 @@
             "address"
         ],
         "name": "Entrance/Exit"
+    },
+    "farm_boxes": {
+        "fields": [
+            "farm_boxes",
+            "description",
+            "provides",
+            "identity",
+            "interaction",
+            "organic",
+            "address",
+            "contact"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "farm_boxes": "*",
+            "provides": "food+drink",
+            "regional": "only"
+        },
+        "terms": [
+            "Community",
+            "supported",
+            "agriculture",
+            "farm"
+        ],
+        "icon": "farm",
+        "name": "CSA"
     },
     "footway/crossing": {
         "fields": [
@@ -9148,6 +9184,7 @@
             "operator",
             "address",
             "building_area",
+            "farm_boxes",
             "opening_hours"
         ],
         "geometry": [

@@ -836,6 +836,10 @@
             "key": "entrance"
         },
         {
+            "key": "regional",
+            "value": "only"
+        },
+        {
             "key": "footway",
             "value": "crossing"
         },

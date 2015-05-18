@@ -4,6 +4,7 @@
     "icon": "restaurant",
     "members": [
         "leisure/communitygarden",
+        "farm_boxes",
         "amenity/volkskuche",
         "amenity/social_facility/food_bank",
         "amenity/marketplace",

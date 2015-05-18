@@ -2984,17 +2984,45 @@ iD.data.presets = {
                 "identity",
                 "interaction",
                 "club",
+                "fee",
                 "address",
-                "fee"
+                "contact"
             ],
             "geometry": [
                 "point",
+                "vertex",
                 "area"
             ],
             "tags": {
                 "club": "*"
             },
-            "name": "club"
+            "name": "Club"
+        },
+        "club/foodcoop": {
+            "fields": [
+                "description",
+                "provides",
+                "topic",
+                "identity",
+                "interaction",
+                "address",
+                "contact",
+                "organic",
+                "regional",
+                "fee"
+            ],
+            "geometry": [
+                "point",
+                "vertex",
+                "area"
+            ],
+            "tags": {
+                "club": "foodcoop",
+                "provides": "food+drink",
+                "regional": "yes",
+                "interaction": "buying_and_selling"
+            },
+            "name": "Food Coop"
         },
         "craft": {
             "icon": "marker-stroked",
@@ -11118,6 +11146,47 @@ iD.data.presets = {
                 "flat top hump"
             ],
             "name": "Raised Pedestrian Crossing"
+        },
+        "transformap-direct": {
+            "fields": [
+                "description",
+                "provides",
+                "identity",
+                "interaction",
+                "contact",
+                "address"
+            ],
+            "geometry": [
+                "point",
+                "vertex",
+                "area"
+            ],
+            "tags": {
+                "provides": "*"
+            },
+            "name": "POI fulfilling direct needs"
+        },
+        "transformap-indirect": {
+            "icon": "flagpole",
+            "fields": [
+                "name",
+                "description",
+                "topic",
+                "identity",
+                "interaction",
+                "club",
+                "address",
+                "contact"
+            ],
+            "geometry": [
+                "point",
+                "vertex",
+                "area"
+            ],
+            "tags": {
+                "topic": "*"
+            },
+            "name": "Organisation caring about needs"
         },
         "transfortest": {
             "fields": [
@@ -46487,10 +46556,13 @@ iD.data.presets = {
             "category-provides_community",
             "category-provides_participation",
             "category-provides_spirituality",
+            "transformap-indirect",
             "transfortest",
             "point"
         ],
         "vertex": [
+            "transformap-direct",
+            "transformap-indirect",
             "transfortest",
             "highway/crosswalk",
             "railway/level_crossing",
@@ -46642,6 +46714,7 @@ iD.data.presets = {
             "members": [
                 "leisure/communitygarden",
                 "farm_boxes",
+                "club/foodcoop",
                 "amenity/volkskuche",
                 "amenity/social_facility/food_bank",
                 "amenity/marketplace",

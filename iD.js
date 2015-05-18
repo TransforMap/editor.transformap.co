@@ -52397,7 +52397,11 @@ iD.introGraph = '{"n185954700":{"id":"n185954700","loc":[-85.642244,41.939081],"
                     "terms": ""
                 },
                 "club": {
-                    "name": "club",
+                    "name": "Club",
+                    "terms": ""
+                },
+                "club/foodcoop": {
+                    "name": "Food Coop",
                     "terms": ""
                 },
                 "craft": {
@@ -54079,6 +54083,14 @@ iD.introGraph = '{"n185954700":{"id":"n185954700","loc":[-85.642244,41.939081],"
                 "traffic_calming/table": {
                     "name": "Raised Pedestrian Crossing",
                     "terms": "speed table,flat top hump"
+                },
+                "transformap-direct": {
+                    "name": "POI fulfilling direct needs",
+                    "terms": ""
+                },
+                "transformap-indirect": {
+                    "name": "Organisation caring about needs",
+                    "terms": ""
                 },
                 "transfortest": {
                     "name": "TransforMap Object",

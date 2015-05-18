@@ -2248,7 +2248,11 @@
                 "terms": ""
             },
             "club": {
-                "name": "club",
+                "name": "Club",
+                "terms": ""
+            },
+            "club/foodcoop": {
+                "name": "Food Coop",
                 "terms": ""
             },
             "craft": {
@@ -3930,6 +3934,14 @@
             "traffic_calming/table": {
                 "name": "Raised Pedestrian Crossing",
                 "terms": "speed table,flat top hump"
+            },
+            "transformap-direct": {
+                "name": "POI fulfilling direct needs",
+                "terms": ""
+            },
+            "transformap-indirect": {
+                "name": "Organisation caring about needs",
+                "terms": ""
             },
             "transfortest": {
                 "name": "TransforMap Object",

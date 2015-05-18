@@ -24,5 +24,6 @@
             "telecommunication" : "Telecommunication: This facility provides the infrastructure for telecommunication.",
             "air" : "Air: Provides the air we all need to breathe."
         }
-    }
+    },
+    "universal": true
 } 

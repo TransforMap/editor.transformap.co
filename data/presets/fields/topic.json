@@ -25,5 +25,6 @@
             "air" : "Air: Organisation caring about the air we all need to breathe.",
             "environment" : "Environment: Environmentalism-related organisations"
         }
-    }
+    },
+    "universal": true
 } 

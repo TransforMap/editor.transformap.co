@@ -19,5 +19,6 @@
             "p2p_economy" : "P2P Economy: The peer-to-peer economy consists of people who pool work, ideas and resources to produce something in self-administrated and decentralized associations, instead of conventional seller/buyer market relationships. ",
             "ecovillage" : "Ecovillage, individual."
         }
-    }
+    },
+    "universal": true
 } 

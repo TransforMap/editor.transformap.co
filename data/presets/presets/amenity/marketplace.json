@@ -16,6 +16,7 @@
         "vertex",
         "area"
     ],
+    "icon": "shop",
     "tags": {
         "amenity": "marketplace"
     },

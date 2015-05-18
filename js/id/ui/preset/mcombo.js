@@ -87,6 +87,8 @@ iD.ui.preset.typeMCombo = function(field, context) {
         var final_value = "";
         for(var i = 0; i < stringarray.length; i++) {
             var osm_value = _.find(_.keys(strings), function(k) { return strings[k] === stringarray[i]; }) || stringarray[i];
+            if(osm_value == "yes") //remove placeholder
+                continue;
             if(final_value)
                 final_value += "; ";
             final_value += osm_value;

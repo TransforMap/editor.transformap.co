@@ -11133,9 +11133,8 @@
             "vertex",
             "area"
         ],
-        "tags": {
-            "identity": "*"
-        },
+        "tags": {},
+        "matchScore": 0.5,
         "name": "TransforMap Object"
     },
     "type/boundary": {

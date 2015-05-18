@@ -14,7 +14,7 @@
         "area"
     ],
     "tags": {
-        "identity": "*"
     },
+    "matchScore": 0.5,
     "name": "TransforMap Object"
 }

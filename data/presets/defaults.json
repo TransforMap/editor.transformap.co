@@ -34,10 +34,13 @@
         "category-provides_community",
         "category-provides_participation",
         "category-provides_spirituality",
+        "transformap-indirect",
         "transfortest",
         "point"
     ],
     "vertex": [
+        "transformap-direct",
+        "transformap-indirect",
         "transfortest",
         "highway/crosswalk",
         "railway/level_crossing",

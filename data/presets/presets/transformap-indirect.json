@@ -1,13 +1,18 @@
 {
     "icon": "flagpole",
     "fields": [
+        "name",
+        "description",
         "topic",
         "identity",
         "interaction",
-        "address"
+        "club",
+        "address",
+        "contact"
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "tags": {

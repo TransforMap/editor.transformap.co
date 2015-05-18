@@ -2263,6 +2263,12 @@
             "value": "table"
         },
         {
+            "key": "provides"
+        },
+        {
+            "key": "topic"
+        },
+        {
             "key": "type",
             "value": "boundary"
         },

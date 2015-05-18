@@ -11118,6 +11118,47 @@
         ],
         "name": "Raised Pedestrian Crossing"
     },
+    "transformap-direct": {
+        "fields": [
+            "description",
+            "provides",
+            "identity",
+            "interaction",
+            "contact",
+            "address"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "provides": "*"
+        },
+        "name": "POI fulfilling direct needs"
+    },
+    "transformap-indirect": {
+        "icon": "flagpole",
+        "fields": [
+            "name",
+            "description",
+            "topic",
+            "identity",
+            "interaction",
+            "club",
+            "address",
+            "contact"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "topic": "*"
+        },
+        "name": "Organisation caring about needs"
+    },
     "transfortest": {
         "fields": [
             "description",

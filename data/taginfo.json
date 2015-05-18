@@ -630,6 +630,10 @@
             "key": "club"
         },
         {
+            "key": "interaction",
+            "value": "buying_and_selling"
+        },
+        {
             "key": "craft"
         },
         {

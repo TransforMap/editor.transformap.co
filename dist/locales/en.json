@@ -2248,7 +2248,11 @@
                 "terms": ""
             },
             "club": {
-                "name": "club",
+                "name": "Club",
+                "terms": ""
+            },
+            "club/foodcoop": {
+                "name": "Food Coop",
                 "terms": ""
             },
             "craft": {

@@ -2983,17 +2983,45 @@
             "identity",
             "interaction",
             "club",
+            "fee",
             "address",
-            "fee"
+            "contact"
         ],
         "geometry": [
             "point",
+            "vertex",
             "area"
         ],
         "tags": {
             "club": "*"
         },
-        "name": "club"
+        "name": "Club"
+    },
+    "club/foodcoop": {
+        "fields": [
+            "description",
+            "provides",
+            "topic",
+            "identity",
+            "interaction",
+            "address",
+            "contact",
+            "organic",
+            "regional",
+            "fee"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "club": "foodcoop",
+            "provides": "food+drink",
+            "regional": "yes",
+            "interaction": "buying_and_selling"
+        },
+        "name": "Food Coop"
     },
     "craft": {
         "icon": "marker-stroked",

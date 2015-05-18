@@ -1294,8 +1294,11 @@ en:
         name: Warehouse
         terms: "<translate with synonyms or related terms for 'Warehouse', separated by commas>"
       club:
-        name: club
-        terms: "<translate with synonyms or related terms for 'club', separated by commas>"
+        name: Club
+        terms: "<translate with synonyms or related terms for 'Club', separated by commas>"
+      club/foodcoop:
+        name: Food Coop
+        terms: "<translate with synonyms or related terms for 'Food Coop', separated by commas>"
       craft:
         name: Craft
         terms: "<translate with synonyms or related terms for 'Craft', separated by commas>"

@@ -6,15 +6,17 @@
         "identity",
         "interaction",
         "club",
+        "fee",
         "address",
-        "fee"
+        "contact"
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "tags": {
         "club": "*"
     },
-    "name": "club"
+    "name": "Club"
 }

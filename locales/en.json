@@ -932,6 +932,14 @@
                     "limited": "Limited: only selected products are fair-trade"
                 }
             },
+            "farm_boxes": {
+                "label": "CSA",
+                "options": {
+                    "pickup": "Pickup point",
+                    "source": "Source farm, no pickup",
+                    "source_and_pickup": "Farm, also pickup possible"
+                }
+            },
             "fax": {
                 "label": "Fax",
                 "placeholder": "+31 42 123 4567"
@@ -2450,6 +2458,10 @@
             "entrance": {
                 "name": "Entrance/Exit",
                 "terms": ""
+            },
+            "farm_boxes": {
+                "name": "CSA",
+                "terms": "Community,supported,agriculture,farm"
             },
             "footway/crossing": {
                 "name": "Crossing",

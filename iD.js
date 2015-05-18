@@ -35051,6 +35051,8 @@ iD.ui.preset.typeMCombo = function(field, context) {
         var final_value = "";
         for(var i = 0; i < stringarray.length; i++) {
             var osm_value = _.find(_.keys(strings), function(k) { return strings[k] === stringarray[i]; }) || stringarray[i];
+            if(osm_value == "yes") //remove placeholder
+                continue;
             if(final_value)
                 final_value += "; ";
             final_value += osm_value;
@@ -51079,6 +51081,14 @@ iD.introGraph = '{"n185954700":{"id":"n185954700","loc":[-85.642244,41.939081],"
                         "limited": "Limited: only selected products are fair-trade"
                     }
                 },
+                "farm_boxes": {
+                    "label": "CSA",
+                    "options": {
+                        "pickup": "Pickup point",
+                        "source": "Source farm, no pickup",
+                        "source_and_pickup": "Farm, also pickup possible"
+                    }
+                },
                 "fax": {
                     "label": "Fax",
                     "placeholder": "+31 42 123 4567"
@@ -52597,6 +52607,10 @@ iD.introGraph = '{"n185954700":{"id":"n185954700","loc":[-85.642244,41.939081],"
                 "entrance": {
                     "name": "Entrance/Exit",
                     "terms": ""
+                },
+                "farm_boxes": {
+                    "name": "CSA",
+                    "terms": "Community,supported,agriculture,farm"
                 },
                 "footway/crossing": {
                     "name": "Crossing",

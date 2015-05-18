@@ -1256,6 +1256,7 @@ iD.data.presets = {
                 "building_area",
                 "opening_hours",
                 "regional",
+                "farm_boxes",
                 "organic"
             ],
             "geometry": [
@@ -2437,6 +2438,11 @@ iD.data.presets = {
             "icon": "building",
             "fields": [
                 "building",
+                "description",
+                "provides",
+                "topic",
+                "identity",
+                "interaction",
                 "levels",
                 "address"
             ],
@@ -4115,6 +4121,36 @@ iD.data.presets = {
                 "address"
             ],
             "name": "Entrance/Exit"
+        },
+        "farm_boxes": {
+            "fields": [
+                "farm_boxes",
+                "description",
+                "provides",
+                "identity",
+                "interaction",
+                "organic",
+                "address",
+                "contact"
+            ],
+            "geometry": [
+                "point",
+                "vertex",
+                "area"
+            ],
+            "tags": {
+                "farm_boxes": "*",
+                "provides": "food+drink",
+                "regional": "only"
+            },
+            "terms": [
+                "Community",
+                "supported",
+                "agriculture",
+                "farm"
+            ],
+            "icon": "farm",
+            "name": "CSA"
         },
         "footway/crossing": {
             "fields": [
@@ -9149,6 +9185,7 @@ iD.data.presets = {
                 "operator",
                 "address",
                 "building_area",
+                "farm_boxes",
                 "opening_hours"
             ],
             "geometry": [
@@ -11097,9 +11134,8 @@ iD.data.presets = {
                 "vertex",
                 "area"
             ],
-            "tags": {
-                "identity": "*"
-            },
+            "tags": {},
+            "matchScore": 0.5,
             "name": "TransforMap Object"
         },
         "type/boundary": {
@@ -46605,6 +46641,7 @@ iD.data.presets = {
             "icon": "restaurant",
             "members": [
                 "leisure/communitygarden",
+                "farm_boxes",
                 "amenity/volkskuche",
                 "amenity/social_facility/food_bank",
                 "amenity/marketplace",
@@ -47369,6 +47406,19 @@ iD.data.presets = {
                 }
             }
         },
+        "farm_boxes": {
+            "key": "farm_boxes",
+            "type": "combo",
+            "strings": {
+                "options": {
+                    "pickup": "Pickup point",
+                    "source": "Source farm, no pickup",
+                    "source_and_pickup": "Farm, also pickup possible"
+                }
+            },
+            "icon": "farm",
+            "label": "CSA"
+        },
         "fax": {
             "key": "fax",
             "type": "tel",
@@ -47551,7 +47601,8 @@ iD.data.presets = {
                     "p2p_economy": "P2P Economy: The peer-to-peer economy consists of people who pool work, ideas and resources to produce something in self-administrated and decentralized associations, instead of conventional seller/buyer market relationships. ",
                     "ecovillage": "Ecovillage, individual."
                 }
-            }
+            },
+            "universal": true
         },
         "identity_combotype": {
             "key": "identity",
@@ -47596,7 +47647,8 @@ iD.data.presets = {
                     "diy_and_dit": "Do It Yourself & Together: Here you can produce or repair, upcycle or downcycle something by yourself or together with others.",
                     "buying_and_selling": "Buy & Sell: Here you can buy and sell things."
                 }
-            }
+            },
+            "universal": true
         },
         "interaction_combotype": {
             "key": "interaction",
@@ -47952,7 +48004,8 @@ iD.data.presets = {
                     "telecommunication": "Telecommunication: This facility provides the infrastructure for telecommunication.",
                     "air": "Air: Provides the air we all need to breathe."
                 }
-            }
+            },
+            "universal": true
         },
         "provides_combotype": {
             "key": "provides",
@@ -48351,7 +48404,8 @@ iD.data.presets = {
                     "air": "Air: Organisation caring about the air we all need to breathe.",
                     "environment": "Environment: Environmentalism-related organisations"
                 }
-            }
+            },
+            "universal": true
         },
         "tourism": {
             "key": "tourism",

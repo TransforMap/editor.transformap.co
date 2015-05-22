@@ -1264,6 +1264,7 @@ iD.data.presets = {
                 "vertex",
                 "area"
             ],
+            "icon": "shop",
             "tags": {
                 "amenity": "marketplace"
             },
@@ -11167,7 +11168,7 @@ iD.data.presets = {
             "name": "POI fulfilling direct needs"
         },
         "transformap-indirect": {
-            "icon": "flagpole",
+            "icon": "embassy",
             "fields": [
                 "name",
                 "description",
@@ -46718,6 +46719,7 @@ iD.data.presets = {
                 "amenity/volkskuche",
                 "amenity/social_facility/food_bank",
                 "amenity/marketplace",
+                "natural/tree",
                 "amenity/restaurant",
                 "amenity/bar",
                 "amenity/pub",

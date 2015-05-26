@@ -9603,6 +9603,29 @@ iD.data.presets = {
             },
             "name": "Houseware Store"
         },
+        "shop/ice_cream": {
+            "icon": "shop",
+            "fields": [
+                "provides",
+                "identity",
+                "interaction",
+                "operator",
+                "address",
+                "building_area",
+                "organic",
+                "regional",
+                "opening_hours"
+            ],
+            "geometry": [
+                "point",
+                "vertex",
+                "area"
+            ],
+            "tags": {
+                "shop": "ice_cream"
+            },
+            "name": "Ice Cream Parlour"
+        },
         "shop/interior_decoration": {
             "icon": "shop",
             "fields": [
@@ -9799,6 +9822,7 @@ iD.data.presets = {
             "tags": {
                 "shop": "mall"
             },
+            "matchScore": 1.1,
             "name": "Mall"
         },
         "shop/massage": {

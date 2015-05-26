@@ -53792,6 +53792,10 @@ iD.introGraph = '{"n185954700":{"id":"n185954700","loc":[-85.642244,41.939081],"
                     "name": "Houseware Store",
                     "terms": "home,household"
                 },
+                "shop/ice_cream": {
+                    "name": "Ice Cream Parlour",
+                    "terms": ""
+                },
                 "shop/interior_decoration": {
                     "name": "Interior Decoration Store",
                     "terms": ""

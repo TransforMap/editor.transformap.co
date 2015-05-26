@@ -2340,6 +2340,9 @@ en:
       shop/houseware:
         name: Houseware Store
         terms: "<translate with synonyms or related terms for 'Houseware Store', separated by commas>"
+      shop/ice_cream:
+        name: Ice Cream Parlour
+        terms: "<translate with synonyms or related terms for 'Ice Cream Parlour', separated by commas>"
       shop/interior_decoration:
         name: Interior Decoration Store
         terms: "<translate with synonyms or related terms for 'Interior Decoration Store', separated by commas>"

@@ -1981,6 +1981,10 @@
         },
         {
             "key": "shop",
+            "value": "ice_cream"
+        },
+        {
+            "key": "shop",
             "value": "interior_decoration"
         },
         {

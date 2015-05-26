@@ -3643,6 +3643,10 @@
                 "name": "Houseware Store",
                 "terms": "home,household"
             },
+            "shop/ice_cream": {
+                "name": "Ice Cream Parlour",
+                "terms": ""
+            },
             "shop/interior_decoration": {
                 "name": "Interior Decoration Store",
                 "terms": ""

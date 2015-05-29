@@ -2,11 +2,11 @@
     "key": "identity",
     "type": "mcombo",
     "label": "Self-Description of a Community",
-    "placeholder": "Commons, Transition Town Initiative, ...",
+    "placeholder": "Commons, Transition Initiative, ...",
     "strings": {
         "options": {
             "solidarity_economy" : "Solidarity Economy: Organisations, projects and enterprises meeting the principles of Solidarity Economy based on the core ideas of shared ownership and people before profit.",
-            "transition_initiative" : "Transition Town Initative: A transition town is a grassroot community project that seeks to build resilience in response to peak oil, climate destruction, and economic instability by creating a local group that uphold the values of the transition network.",
+            "transition_initiative" : "Transition Initative: A transition initiative is a grassroot community project that seeks to build resilience in response to peak oil, climate destruction, and economic instability by creating a local group that uphold the values of the transition network.",
             "permaculture" : "Permaculture: Initiatives, and projects based on the design principles of permaculture.",
             "demonetized_economy" : "Demonetized Economy: Places where people live or attempt to live without money. Projects and initiatives that avoid commodity exchange and conventional money.",
             "community_based_currencies" : "Community Based Currencies: Initiatives that design and manage community based and -supported, local and social currencies, which are not controlled by a national government, and are intended to be traded only in a particular area. ",

@@ -660,6 +660,13 @@ en:
           difficult_alpine_hiking: "T6: Difficult Alpine Hiking"
       seasonal:
         label: Seasonal
+      second_hand:
+        label: Second Hand
+        placeholder: "Yes, No, Second Hand Only..."
+        options:
+          only: "Only: only 2nd hand"
+          "yes": "Yes: new and 2nd hand"
+          "no": "No"
       service:
         label: Type
       service/bicycle/chain_tool:

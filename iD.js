@@ -51556,6 +51556,15 @@ iD.introGraph = '{"n185954700":{"id":"n185954700","loc":[-85.642244,41.939081],"
                 "seasonal": {
                     "label": "Seasonal"
                 },
+                "second_hand": {
+                    "label": "Second Hand",
+                    "placeholder": "Yes, No, Second Hand Only...",
+                    "options": {
+                        "only": "Only: only 2nd hand",
+                        "yes": "Yes: new and 2nd hand",
+                        "no": "No"
+                    }
+                },
                 "service": {
                     "label": "Type"
                 },

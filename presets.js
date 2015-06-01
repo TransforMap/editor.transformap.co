@@ -48224,6 +48224,20 @@ iD.data.presets = {
             "type": "check",
             "label": "Seasonal"
         },
+        "second_hand": {
+            "key": "second_hand",
+            "type": "combo",
+            "label": "Second Hand",
+            "placeholder": "Yes, No, Second Hand Only...",
+            "universal": true,
+            "strings": {
+                "options": {
+                    "only": "Only: only 2nd hand",
+                    "yes": "Yes: new and 2nd hand",
+                    "no": "No"
+                }
+            }
+        },
         "service": {
             "key": "service",
             "type": "combo",
